@@ -67,6 +67,7 @@ defmodule Chartkick do
     map = add_options_key(opts, map, :xtitle)
     map = add_options_key(opts, map, :ytitle)
     map = add_options_key(opts, map, :legend)
+    map = add_options_key(opts, map, :library)
     Poison.encode!(map)
   end
 
